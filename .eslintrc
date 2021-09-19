@@ -4,6 +4,12 @@
 	"plugins": [
 		"@typescript-eslint"
 	],
+    "env": {
+        "node": true,
+        "browser": true,
+        "commonjs": true,
+        "amd": true
+    },
 	"rules": {
 		"semi": "off",
 		"@typescript-eslint/semi": [
