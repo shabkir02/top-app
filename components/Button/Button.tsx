@@ -1,6 +1,7 @@
 import classNames from 'classnames';
 
 import { IButtonProps } from './Button.props';
+import ArrowIcon from './arrow.svg';
 
 import styles from './Button.module.css';
 
@@ -23,7 +24,7 @@ export const Button = ({ appearance, children, arrow = 'none', className, ...pro
             {children}
             {arrow !== 'none' && (
                 <span className={arrowClass}>
-                    d
+                    <ArrowIcon />
                 </span>
             )}
         </button>
