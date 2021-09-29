@@ -8,6 +8,7 @@
 
 .wrapper {
     margin-top: 40px;
+    margin-right: 30px;
 }
 
 .hhtitle {
@@ -16,4 +17,10 @@
     align-items: baseline;
     justify-items: left;
     gap: 20px;
+}
+
+@media screen and (max-width: 756px) {
+    .wrapper {
+        margin-right: 0;
+    }
 }
